@@ -9,8 +9,6 @@ const envSchema = z.object({
   MAX_DAILY_LOSS_USD: z.string().default("25"),
   TAKE_PROFIT_PCT: z.string().default("12"),
   STOP_LOSS_PCT: z.string().default("6"),
-  PRIVATE_KEY: z.string().default("0xYOUR_PRIVATE_KEY_HERE"),
-  DRY_RUN: z.string().default("true"),
   POLYMARKET_MARKET_SLUGS: z.string().default("btc-up-or-down-15m,eth-up-or-down-15m"),
   ORDER_SIZE_USD: z.string().default("25"),
   COOLDOWN_SECONDS: z.string().default("10"),
